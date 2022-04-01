@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100;300;600&family=Palette+Mosaic&family=Poppins:wght@100;200;300&family=Roboto:wght@100;300;400&display=swap');
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: rgb(241, 241, 241);
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+body {
+    background-image: url(/img/background-mario.jpg);
+    background-color: #cccccc;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Bebas Neue', Arial, Verdana;
+    background-image: url(../img/background-mario.jpg);
+}
+
+.box {
+    width: 650px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 300px;
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+#btn--green {
+    background-color: #0ec108;
+    width: 280px;
+    height: 280px;
+    border: 15px solid rgb(56, 56, 56);
+    border-radius: 300px 0px 0px 0px;
+}
+
+#btn--red {
+    background-color: #fb3840;
+    width: 280px;
+    height: 280px;
+    border: 15px solid rgb(56, 56, 56);
+    border-radius: 0px 300px 0px 0px;
+}
+
+#btn--yellow {
+    background-color: #ffc721;
+    width: 280px;
+    height: 280px;
+    border: 15px solid rgb(56, 56, 56);
+    border-radius: 0px 0px 0px 300px;
+}
+
+#btn--blue {
+    background-color: #0dd1f1;
+    width: 280px;
+    height: 280px;
+    border: 15px solid rgb(56, 56, 56);
+    border-radius: 0px 0px 300px 0px;
+}
+
+.game__control {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(56, 56, 56);
+    left: 50%;
+    margin-left: -150px;
+    position: absolute;
+    margin-top: 150px;
+    border-radius: 300px;
+    text-align: center;
+    color: azure;
+}
+
+.menuTextWelcome {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.menuTextQuest {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.menuButton {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border: none;
+    border-radius: 40px;
+    font-size: 30px;
+    color: white;
+}
+
+.menuButton:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.memorize {
+    width: 240px;
+    height: 175px;
+    margin-left: -120px;
+    /* margin-right: 150px */
+    /* margin: auto; */
+    position: absolute;
+    margin-top: 110px;
+    font-size: 30px;
+}
+
+.response { 
+    width: 240px;
+    height: 175px;
+    margin-left: -120px;
+    position: absolute;
+    margin-top: 110px;
+    font-size: 30px;
+}
+
+#gameOver {
+    width: 390px;
+    height: 110px;
+    margin-left: -120px;
+    position: absolute;
+    margin-top: 85px;
+    font-size: 30px;
+}
+
+#playAgain {
+    margin-top: 200px;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border: none;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+#playAgain:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.brilho {
+    filter: brightness(1.8)
+}
+
+.brilhoVerde {
+    background-color: #145011;
+}
+
+.brilhoVermelho {
+    background-color: #521517 ;
+}
+
+.brilhoAmarelo {
+    background-color: #645731;
+}
+
+.brilhoAzul {
+    background-color: #22575f;
+}
